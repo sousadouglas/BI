@@ -14,8 +14,4 @@ spark = SparkSession.builder.master("local[*]")\
 .getOrCreate()
 
 
-erfes
-gfhgf
-sdfsdfsdfsd
-dfgf
-dsfsdsdfsdfsdsdsdS
+#codigo de teste
