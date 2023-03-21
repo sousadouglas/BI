@@ -12,3 +12,8 @@ from pyspark.sql.functions import when
 spark = SparkSession.builder.master("local[*]")\
 .enableHiveSupport()\
 .getOrCreate()
+
+
+
+
+sdfsdfsdfsd
