@@ -1,0 +1,14 @@
+from pyspark.sql import SparkSession, dataframe
+from pyspark.sql.functions import when, col, sum, count, isnan, round
+from pyspark.sql.functions import regexp_replace, concat_ws, sha2, rtrim
+from pyspark.sql.functions import unix_timestamp, from_unixtime, to_date
+from pyspark.sql.types import StructType, StructField
+from pyspark.sql.types import DoubleType, IntegerType, StringType
+from pyspark.sql import HiveContext
+
+from pyspark.sql.functions import regexp_replace
+from pyspark.sql.functions import when
+
+spark = SparkSession.builder.master("local[*]")\
+.enableHiveSupport()\
+.getOrCreate()
